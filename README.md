@@ -1,15 +1,20 @@
 # poultry-disease-classifier\
 
-🔬 A Deep Learning-Powered Web App to Detect Poultry Diseases for Enhanced Health Management
-📌 Project Overview
-This project aims to develop a Transfer Learning-based image classification system that detects four poultry conditions from chicken images:
+# 🐔 Poultry Disease Classification using Transfer Learning
 
-Salmonella
+This project aims to develop a deep learning model to classify poultry diseases using transfer learning. The model classifies images of poultry into four categories: **Healthy**, **Salmonella**, **New Castle Disease**, and **Coccidiosis**.
 
-New Castle Disease
+## 🚀 Project Overview
 
-Coccidiosis
+- **Model**: Transfer Learning with VGG16/ResNet50
+- **Framework**: TensorFlow / Keras
+- **UI**: Flask Web Application (Optional)
+- **Deployment**: Local or Cloud (Render/Heroku/Streamlit)
+- **Goal**: Help farmers and poultry experts detect diseases early using image classification.
 
-Healthy
+---
 
-It leverages deep learning (VGG16, VGG19, ResNet50) and is integrated into a Flask-based web application. The goal is to empower farmers, researchers, and veterinary students with fast, accurate, and user-friendly poultry disease diagnosis.
+## 🗂️ Dataset
+
+The dataset is organized as follows:
+
